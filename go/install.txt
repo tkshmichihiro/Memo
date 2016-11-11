@@ -1,0 +1,19 @@
+Installing Go lang.
+
+In golang.org, go lang binary package is avairable in most of platform such as Linux, Window, Mac. Hence, normally, users do not need compile and install go lang (and go compiler tool) from the source code.
+But there seems to be a couple of benefit to install go lang from the source code.
+
+1. the code is managed by git, so, if we want to use the latest version of go lang environment, we can just checkout master branch and try it out.
+
+2. In the future, if we want to contribute go lang development, we need to develope and compile from the source code eventually.
+
+
+Memo:
+Before go 1.4 or older, looks like installation was pretty simple.
+Just execute git clone and move to src dir and execute ./all.bash
+
+But from 1.5 or newer, go1.4 enviroment is required.
+
+Reference URL:
+https://golang.org/doc/install/source
+http://tnishinaga.hatenablog.com/entry/2015/02/28/045304
