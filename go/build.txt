@@ -1,0 +1,13 @@
+Build:
+Workspace should be created like below.
+
+$GOPATH + src/github.com/<github username>/<name of component>
+
+For example,
+$go-work/src/github.com/tkshmichihiro/helloworld
+
+- go install will install the compiled binary in $GOPATH/bin.
+- Run go install under $GOPATH/src
+
+Static link is used:
+Go command executables are statically linked; the package objects need not be present to run Go programs. 
